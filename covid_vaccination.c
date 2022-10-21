@@ -24,7 +24,7 @@ void display_handler(Admin &ad)
 		cout << "\n\tEnter 1 for displaying n entries" << endl;
 		cout << "\n\tEnter 2 for displaying citizens in today's slot" << endl;
 		cout << "\n\tEnter 0 to return to main Admin Menu." << endl;
-		cout << "\n\tEnter choice :";
+		cout << "\n\tEnter your choice :";
 		cin >> choice;
 		switch (choice)
 		{
@@ -96,7 +96,7 @@ if(p1.age>=18)
     printf("\n\nEnter Preferred Option: ");
     scanf("%d", &p1.center);
 
-    printf("\n\nTime Slots available for Center %d:", p1.center);
+    printf("\n\nTime Slots Available for Center %d:", p1.center);
 
     if(p1.center==1)
     {
@@ -186,7 +186,7 @@ if(p1.age>=18)
     if(p1.center<1 || p1.center>5)
     printf("\n\nInvalid Center Selected. Please Select from the Available Centers only.");
     if(p1.slot<1 || p1.slot>3)
-    printf("\n\nInvalid Time Slot Selected. Please Select from the Available Slots only.");
+    printf("\n\nInvalid Time Slot Selected. Please Select from the Available Time Slots only.");
     
     printf("\n---------------------------------------");
 

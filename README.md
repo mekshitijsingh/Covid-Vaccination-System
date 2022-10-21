@@ -20,3 +20,7 @@ To qualify for the __official limited edition Hacktoberfest shirt__, you must re
 :star: Make sure to grab some cool swags during Hacktoberfest by getting involved in the open-source community.
 
 > ### This repository is open to all members of the GitHub community. Any member can contribute to this project<br>
+
+# COVID VACCINATION SYSTEM
+<img align="right" src = "https://media4.giphy.com/media/FeLEJpblenW1kwu7Zn/giphy.gif?cid=ecf05e47h1jsg792f0c4d6ej9lp6g7xd8ez9hdc0x07040e3&rid=giphy.gif&ct=g" width="200" height="200" />
+This project designs a covid vaccination that assists doctors and nurses to manage the vaccination center effectively and efficiently. This project reduces the burden on the staff by allowing self-registration by the users.

@@ -12,7 +12,39 @@ int slot;
 int age;  
 }
 
-pers;  
+pers; 
+//sha
+void display_handler(Admin &ad)
+{
+	int choice = -1;
+	do
+	{
+		cout << "\n\t---------------------------";
+		cout << "\n\t Display menu" << endl;
+		cout << "\n\tEnter 1 for displaying n entries" << endl;
+		cout << "\n\tEnter 2 for displaying citizens in today's slot" << endl;
+		cout << "\n\tEnter 0 to return to main Admin Menu." << endl;
+		cout << "\n\tEnter choice :";
+		cin >> choice;
+		switch (choice)
+		{
+		case 1:
+			ad.display_top_n(cqueue);
+			break;
+		case 2:
+			ad.display_today(cqueue);
+			break;
+		case 0:
+			cout << "\n\tReturning to main Admin menu ..." << endl;
+			break;
+		default:
+			cout << "\n\tEnter a valid input.";
+			break;
+		}
+	} while (choice != 0);
+}
+//end
+
 int main()
 {  
 pers p1; 
